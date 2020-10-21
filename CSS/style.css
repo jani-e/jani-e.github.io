@@ -6,12 +6,26 @@ header {
 	text-align: center;
 }
 nav {
+	float: left;
 	background-color: #03B7D8;
+	margin: 5px;
+	padding: 5px;
+	width: 150px;
+}
+#navList {
+	list-style-type: none;
+}
+#navMenu {
+	text-align: left;
 }
 section {
 	background-color: #40CAE4;
 }
 footer {
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 	background-color: #6CD6EA;
 }
 
