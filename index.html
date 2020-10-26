@@ -3,42 +3,58 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Jani's Website</title>
-		<style>
-		.theo {
-		margin: 10px;
-		}
-		</style>
+		<link rel="stylesheet" href="CSS/style.css">
 	</head>
 	<body>
-		<h1>Hello there!</h1>
-		<p>Welcome to my website. Here I'll be conducting and testing my studies on HTML, CSS etc.</p>
-		<a href="readme.html" title="Jani's README">My README in html</a>
-		<a href="layouttest.html" title="Layout testing">Layout testing</a>
-		<a href="layouttestheadcolor.html" title="LayoutTestHeadColor">Layout with head CSS.</a>
-		<br>
-		<img class="theo" src="images/theo.jpg" alt="Theo fretti" width="500"> 
-		
-		<h2>Learning by practising it directly in the code</h2>
-		<p>How to make an unordered list with bullets:</p>
-        <ul>
-			<li>Start with &lt;ul&gt; and &lt;/ul&gt; tags.</li>
-			<li>Then inside it create bullets with &lt;li&gt;tag.</li>
-			<li>Don't forget the &lt;/ul&gt; tag at the end of the list!</li>
-        </ul>
-		<p>But what if I wanted to use numbers in my list? <br>
-		<ol>
-			<li>You can use the &lt;ol&gt; and &lt;/ol&gt; tags.</li>
-			<li>Then same as before: list things with &lt;li&gt; tag.
-		</ol>
-		<p>You can also make lists including descriptions.</p>
-		<dl>
-			<dt>Here you use a different tag called &lt;dl&gt;.</dt>
-			<dd>Use this to create lists that include defitions.</dd>
-			<dt>The next step is to add the tag &lt;dt&gt;.</dt>
-			<dd>Which dictates the item.</dd>
-			<dt>To add the description under it.</dt>
-			<dd>Use the tag &lt;dd&gt;.</dd>
-		</dl>
-			
+		<header>
+			<h1>Jani's Website</h1>
+		</header>
+		<nav>
+			<a href="index.html" title="Jani's Website">Home</a>
+			<a href="study.html" title="Jani's Study">Study</a>
+		</nav>
+		<div>
+			<p>Welcome to my website. Here I'll be conducting and testing my studies on HTML, CSS etc.</p>
+		</div>
+	
+	<div id="old">
+			<a href="readme.html" title="Jani's README">My README in html</a>
+			<a href="layouttest.html" title="Layout testing">Layout testing</a>
+			<a href="layouttestheadcolor.html" title="LayoutTestHeadColor">Layout with head CSS.</a>
+			<a href="csspractise.html" title="CSS practise">CSS practise</a>
+			<br>
+			<br> <!--Nav tag has float so temporary using double br here-->
+			<a href="images/theo.jpg"><img src="images/theo.jpg" alt="Theo fretti" width="200"></a>
+			<figure>
+				<img class="theo" src="images/theo.jpg" alt="Theo fretti" width="500"> 
+				<figcaption>
+					Theo fretti leikkimässä
+				</figcaption>
+			</figure>
+			<h2>Learning by practising it directly in the code</h2>
+			<p>How to make an unordered list with bullets:</p>
+			<ul>
+				<li>Start with &lt;ul&gt; and &lt;/ul&gt; tags.</li>
+				<li>Then inside it create bullets with &lt;li&gt;tag.</li>
+				<li>Don't forget the &lt;/ul&gt; tag at the end of the list!</li>
+			</ul>
+			<p>But what if I wanted to use numbers in my list? <br>
+			<ol>
+				<li>You can use the &lt;ol&gt; and &lt;/ol&gt; tags.</li>
+				<li>Then same as before: list things with &lt;li&gt; tag.
+			</ol>
+			<p>You can also make lists including descriptions.</p>
+			<dl>
+				<dt>Here you use a different tag called &lt;dl&gt;.</dt>
+				<dd>Use this to create lists that include defitions.</dd>
+				<dt>The next step is to add the tag &lt;dt&gt;.</dt>
+				<dd>Which dictates the item.</dd>
+				<dt>To add the description under it.</dt>
+				<dd>Use the tag &lt;dd&gt;.</dd>
+			</dl>
+			<p>Meter and Progress elements.</p>
+			<meter value="5000" min="0" max="9001">5000</meter> 5000 Visited this website.<br>
+			<progress value="10" max="42">10</progress> HTML skills progress.
+		</div>
 	</body>
 </html>
