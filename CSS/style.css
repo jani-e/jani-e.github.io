@@ -1,15 +1,25 @@
+html {
+/*	height: 200%;*/
+}
 body {
-	background-image: url(../images/backgroundtop.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-color: rgb(235,235,235);
+	background-image: url(../images/clouds.png), linear-gradient(to bottom right, lightblue, white);
+	height: 1000px;
+	background-repeat: repeat;
 }
 header {
-	
 	text-align: center;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: gray;
 }
-nav {
+/*#content {
+	position: absolute;
+	width: 100%;
 }
+*/
 #navList {
 	list-style-type: none;
 }
