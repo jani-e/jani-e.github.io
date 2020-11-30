@@ -5,4 +5,23 @@
 
 /*#copy {
     text-align: right;
+}*/
+footer {
+    background-color: #08F;
+    background-image: url("../Images/footer.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    color: white;
+    height: 400px;
 }
+footer a:hover {
+    color: red;
+}
+.footerbg h4, .footerbg li, .footerbg p {
+    background-color: rgb(0, 136, 255, 0.2);
+}
+/*
+@media when smallest size? just full blue background?, remove footerbg?
+footer links to white?
+*/
