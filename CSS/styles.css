@@ -1,16 +1,13 @@
-/*body {
-    background-color: black;
+body {
+    background-color: #08F;
     color: white;
-}*/
-
-/*#copy {
-    text-align: right;
-}*/
+}
 nav {
     background-color: #08F;
 }
 main {
     margin-top: 58px;
+    background-color: white;
 }
 footer {
     background-color: #08F;
