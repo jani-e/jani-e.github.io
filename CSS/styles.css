@@ -6,22 +6,40 @@
 /*#copy {
     text-align: right;
 }*/
+nav {
+    background-color: #08F;
+}
+main {
+    margin-top: 58px;
+}
 footer {
     background-color: #08F;
-    background-image: url("../Images/footer.png");
+    background-image: url("../Images/footer2.png");
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     color: white;
-    height: 400px;
 }
-footer a:hover {
-    color: red;
+footer a:link, footer a:visited {
+    color: white;
 }
-.footerbg h4, .footerbg li, .footerbg p {
-    background-color: rgb(0, 136, 255, 0.2);
+#copy {
+    text-align: end;
+    font-size: 0.7em;
+}
+@media only screen and (max-width: 576px) {
+    footer {
+        background-image: none;
+    }
 }
 /*
-@media when smallest size? just full blue background?, remove footerbg?
-footer links to white?
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
 */
