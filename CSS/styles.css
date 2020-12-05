@@ -1,17 +1,18 @@
 nav {
-    background-color: #08F;
+    background-color: rgb(0, 95, 181);
 }
 main {
     margin-top: 58px;
-    background-color: white;
+    background-color: lightgray; /*test coverage*/
 }
 footer {
-    background-color: #08F;
+    background-color: rgb(0, 95, 181);
     background-image: url("../Images/footer2.png");
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     color: white;
+    height: 400px;
 }
 footer a:link, footer a:visited {
     color: white;
@@ -24,6 +25,10 @@ footer a:link, footer a:visited {
     footer {
         background-image: none;
     }
+}
+.imagestyle {
+    width: 100%;
+    padding: 10px 0px;
 }
 /*
 
