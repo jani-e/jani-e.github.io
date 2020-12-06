@@ -1,9 +1,23 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 nav {
     background-color: rgb(0, 95, 181);
 }
 main {
     margin-top: 58px;
     background-color: rgb(235, 235, 235);
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 5px;
+}
+.carousel-caption, .carousel-indicators {
+    text-align: right;
+    float: right;
+    right: 2%;
+    left: inherit;
+    margin-right: 0px;
 }
 h1 {
     text-align: center;
@@ -17,16 +31,23 @@ h2 {
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     padding: 5px;
+    background-color: rgb(220, 220, 220);
+    border-top-right-radius: 15px;
 }
 h3 {
     text-align: center;
+    font-size: 1.5em;
 }
 .pcentered {
     padding: 0px 15%;
 }
+.card-deck {
+    margin-top: 30px;
+}
 .card-header {
     background-color: rgb(0, 95, 181);
     color: white;
+    font-size: 1.1em;
 }
 .card-footer {
     background-color: white;
@@ -66,9 +87,11 @@ footer a:link, footer a:visited {
     margin: 10px 0px;  
 }
 table {
-    width: 100%;
+    width: 80%;
     color: white;
     background-color: rgb(56, 159, 252);
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 table, th, td {
     border: 1px solid black;
@@ -77,6 +100,7 @@ table, th, td {
 }
 table th {
     background-color: rgb(0, 73, 138);
+    width: 50%;
 }
 table tr:nth-child(odd) {
     background-color: rgb(0, 134, 255);
@@ -84,6 +108,7 @@ table tr:nth-child(odd) {
 }
 caption {
     caption-side: top;
+    padding-top: 0px;
 }
 /*
 
